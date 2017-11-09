@@ -70,6 +70,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `trolleyes`.`pedido` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `fecha` DATE NULL,
+  `tiene_iva` TINYINT(1) NULL,
   `iva` INT NULL,
   `id_usuario` INT NULL,
   PRIMARY KEY (`id`),
@@ -87,7 +88,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `trolleyes`.`linea_pedido` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `cantidad` VARCHAR(45) NULL,
+  `cantidad` INT NULL,
   `id_pedido` INT NULL,
   `id_producto` INT NULL,
   PRIMARY KEY (`id`),
