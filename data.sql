@@ -55,7 +55,7 @@ INSERT INTO `linea_pedido` (`id`, `cantidad`, `id_pedido`, `id_producto`) VALUES
 (7, '9', 4, 4),
 (8, '5', 4, 3),
 (9, '5', 4, 2),
-(10, '5', 1, 1);
+(10, '5', 1, 1),
 (11, '5', 1, 2);
 
 
