@@ -21,7 +21,7 @@ INSERT INTO `tipousuario` (`id`, `descripcion`) VALUES
 (2, 'Cliente');
 
 INSERT INTO `usuario` (`id`, `dni`, `nombre`, `primer_apellido`, `segundo_apellido`, `login`, `password`, `email`, `fecha_nacimiento`, `id_tipousuario`) VALUES
-(1, '123456', 'Pablo', 'Tolosa', 'Cerezo', 'pablo', 'pablo', 'pablo@gmail.com', '1996-08-09', 1),
+(1, '123456', 'Pablo', 'Tolosa', 'Cerezo', 'pablo', '26079e41910bcde04be636fbeecc9045379882b5ad3fe7f70b762436c6d98055', 'pablo@gmail.com', '1996-08-09', 1),
 (2, '789456', 'Menxu', 'Leon', 'Sum', 'menxu', '96c1776e50404abc540c8018836824be1d00d23fa81a18240b542e2a27f5de12', 'menxu@gmail.com', '1995-06-17', 2),
 (3, '456123', 'Adri', 'Adria', 'Adrian', 'adri', 'd302886ecca83222a392f6549e520dacbd95dc65f1a303f8c571ca3bb9b8e196', 'adri@gmail.com', '2007-11-13', 1),
 (4, '159753', 'Angel', 'Jordi', 'ENP', 'jordi', '707d11765de821e5bd52bfc135ce9e1e0400f6aabad78a0cdb4543dc22669e49', 'jordi@gmail.com', '1996-05-05', 2),
